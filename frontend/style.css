@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #1e3c72,
+        #2a5298
+    );
+
+    padding: 20px;
+}
+
+.container {
+
+    width: 900px;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    backdrop-filter: blur(12px);
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.25);
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    color: white;
+}
+
+h1 {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    font-size: 32px;
+
+    letter-spacing: 1px;
+}
+
+form {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 18px;
+}
+
+input,
+select {
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    font-size: 15px;
+
+    outline: none;
+
+    background: rgba(255,255,255,0.2);
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: rgba(255,255,255,0.8);
+}
+
+select option {
+    color: black;
+}
+
+input:focus,
+select:focus {
+
+    background: rgba(255,255,255,0.3);
+
+    transform: scale(1.02);
+}
+
+button {
+
+    grid-column: span 2;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: linear-gradient(
+        to right,
+        #0072ff,
+        #00c6ff
+    );
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 6px 18px rgba(0,0,0,0.3);
+}
+
+#result {
+
+    margin-top: 25px;
+
+    text-align: center;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    min-height: 40px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    button {
+        grid-column: span 1;
+    }
+}
