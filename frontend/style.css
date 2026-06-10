@@ -163,3 +163,276 @@ button:hover {
         grid-column: span 1;
     }
 }
+
+.linkText {
+
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.linkText a {
+
+    color: #00c6ff;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+#message {
+
+    margin-top: 15px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    min-height: 20px;
+}
+
+.topBar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+#logoutBtn {
+
+    width: 120px;
+
+    padding: 10px;
+}
+
+.linkText {
+
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.linkText a {
+
+    color: #00c6ff;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+#message {
+
+    margin-top: 15px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    min-height: 20px;
+}
+
+.topBar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+#logoutBtn {
+
+    width: 120px;
+
+    padding: 10px;
+}
+.diabetic {
+
+    color: #ff4d4d;
+}
+
+.non-diabetic {
+
+    color: #00ff99;
+}
+
+.resultCard {
+
+    margin-top: 25px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    text-align: left;
+
+    animation: fadeIn 0.5s ease;
+}
+
+
+
+.resultCard h2 {
+
+    margin-bottom: 10px;
+}
+
+
+
+.resultCard p {
+
+    margin-bottom: 10px;
+
+    font-size: 16px;
+}
+
+
+
+.resultCard ul {
+
+    padding-left: 20px;
+}
+
+
+
+.resultCard li {
+
+    margin-bottom: 5px;
+}
+
+
+
+.diabetic {
+
+    background: rgba(255, 77, 77, 0.2);
+
+    border: 2px solid #ff4d4d;
+
+    color: #ffb3b3;
+}
+
+
+
+.nonDiabetic {
+
+    background: rgba(0, 255, 153, 0.2);
+
+    border: 2px solid #00ff99;
+
+    color: #b3ffe0;
+}
+
+
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(10px);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+    }
+}
+.resultCard {
+
+    margin-top: 25px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    text-align: left;
+
+    animation: fadeIn 0.5s ease;
+}
+
+
+
+.resultCard h2 {
+
+    margin-bottom: 15px;
+}
+
+
+
+.resultCard p {
+
+    margin-bottom: 15px;
+
+    font-size: 17px;
+}
+
+
+
+.resultCard ul {
+
+    padding-left: 20px;
+}
+
+
+
+.resultCard li {
+
+    margin-bottom: 8px;
+}
+
+
+
+.diabetic {
+
+    background: rgba(255, 77, 77, 0.2);
+
+    border: 2px solid #ff4d4d;
+
+    color: #ffb3b3;
+}
+
+
+
+.nonDiabetic {
+
+    background: rgba(0, 255, 153, 0.2);
+
+    border: 2px solid #00ff99;
+
+    color: #b3ffe0;
+}
+
+
+
+#backBtn {
+
+    margin-top: 20px;
+}
+
+
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(10px);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+    }
+}
